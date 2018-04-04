@@ -1,0 +1,101 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+fleet_manager_first_driver_interview_interviewer:
+ # interviewer: fleet_manger
+  interview: first_driver_interview
+  resource: fleet_manger
+  resource_type: Interviewer
+
+hr_first_driver_interview_interviewer:
+ # interviewer: hr
+  interview: first_driver_interview
+  resource: hr
+  resource_type: Interviewer
+
+hr_first_forklift_interview_interviewer:
+ # interviewer: hr
+  interview: first_forklift_interview
+  resource: hr
+  resource_type: Interviewer
+
+union_first_manager_interview_interviewer:
+ # interviewer: hr
+  interview: first_manager_interview
+  resource: union
+  resource_type: Interviewer
+
+warehouse_second_driver_interview_interviewer:
+ # interviewer: hr
+  interview: second_driver_interview
+  resource: warehouse
+  resource_type: Interviewer
+
+barney_rubble_first_driver_interview_candidate:
+ # interviewer: union
+  interview: first_driver_interview
+  resource: barney_rubble
+  resource_type: Candidate
+
+fred_flintstone_second_driver_interview_candidate:
+ # interviewer: fleet_manger
+  interview: second_driver_interview
+  resource: fred_flintstone
+  resource_type: Candidate
+
+bill_snakey_first_forklift_interview_candidate:
+ # interviewer: fleet_manger
+  interview: first_forklift_interview
+  resource: bill_snakey
+  resource_type: Candidate
+
+maude_flanders_first_manager_interview_candidate:
+ # interviewer: fleet_manger
+  interview: first_manager_interview
+  resource: maude_flanders
+  resource_type: Candidate
+
+#two_truck_hr:
+#  interviewer: hr
+#  interview: second_driver_interview
+#
+#two_truck_union:
+#  interviewer: union
+#  interview: second_driver_interview
+#
+#one_lift_manager:
+#  interviewer: warehouse
+#  interview: first_forklift_interview
+#
+#one_lift_hr:
+#  interviewer: hr
+#  interview: first_forklift_interview
+#
+#one_lift_union:
+#  interviewer: union
+#  interview: first_forklift_interview
+#
+#two_lift_manager:
+#  interviewer: warehouse
+#  interview: second_forklift_interview
+#
+#two_lift_hr:
+#  interviewer: hr
+#  interview: second_forklift_interview
+#
+#two_lift_union:
+#  interviewer: union
+#  interview: second_forklift_interview
+#
+#manager_warehouse:
+#  interviewer: warehouse
+#  interview: first_manager_interview
+#
+#manager_hr:
+#  interviewer: warehouse
+#  interview: hr
+#
+#

@@ -1,0 +1,26 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+<% ['first_driver_interview', 'second_driver_interview', 'first_forklift_interview', 'second_forklift_interview'].each do |interview| %>
+<% counter = 0 %>
+<% ['license','experience', 'delays', 'biggest_weakness', 'biggest_strength'].shuffle.each do |question| %>
+<% counter += 1 %>
+interview_<%= interview %>_<%= question %>:
+  interview: <%= interview %>
+  question: <%= question %>
+  display_order: <%= counter %>
+<% end %>
+<% end %>
+
+
+<% counter = 0 %>
+<% ['mangerial_experience', 'biggest_weakness', 'biggest_strength', 'google'].shuffle.each do |question| %>
+<% counter += 1 %>
+manager_<%= question %>:
+  interview: first_manager_interview
+  question: <%= question %>
+  display_order: <%= counter %>
+<% end %>

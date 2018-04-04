@@ -1,0 +1,20 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+license: 
+  question: Do you have the required license for this position?
+experience: 
+  question: Describe your past experience in similar positions
+delays:
+  question: How do you handle traffic delays?
+biggest_weakness:
+  question: What would you say is your biggest weakness?
+biggest_strength:
+  question: What would you say is your best quality?
+managerial_experience:
+  question: How much managerial experience do you have?
+google:
+  question: How many gas stations are there in Chicago?

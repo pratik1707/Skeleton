@@ -1,0 +1,54 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+answer_first_driver_interview_barney_rubble_license:
+  interview: first_driver_interview
+  candidate: barney_rubble
+  question: license
+  response: Yes I have the required license for this position
+
+answer_first_driver_interview_barney_rubble_experience:
+  interview: first_driver_interview
+  candidate: barney_rubble
+  question: experience
+  response: I have 6 years of experience
+
+answer_first_driver_interview_barney_rubble_delays:
+  interview: first_driver_interview
+  candidate: barney_rubble
+  question: delays
+  response: Yes I have handled delays
+
+answer_first_driver_interview_barney_rubble_managerial_experience:
+  interview: first_driver_interview
+  candidate: barney_rubble
+  question: managerial_experience
+  response: Yes I have managerial_experience
+
+answer_first_driver_interview_barney_rubble_google:
+  interview: first_driver_interview
+  candidate: barney_rubble
+  question: google
+  response: 550
+
+answer_first_driver_interview_barney_rubble_strentgh:
+  interview: first_driver_interview
+  candidate: barney_rubble
+  question: biggest_strength
+  response: Self Confidence
+
+answer_first_driver_interview_barney_rubble_weakness:
+  interview: first_driver_interview
+  candidate: barney_rubble
+  question: biggest_weakness
+  response: Not available
+
+
+
+# column: value
+#
+
+# column: value
