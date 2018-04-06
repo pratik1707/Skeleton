@@ -11,6 +11,10 @@ class Interview < ApplicationRecord
     candidate = Candidate.find_by_id(self.candidate.first.resource_id)
     return candidate
   end
+
+  def get_candidate_id
+    candidate_id = self.candidate.present? ? self.candidate.first.id : nil
+  end
 end
 
 
